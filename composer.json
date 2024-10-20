@@ -1,0 +1,22 @@
+{
+    "name": "aika/toolbox",
+    "version": "1.0",
+    "description": "Ensemble de classes utilitaires PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aika\\Toolbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Donatien Kamary",
+            "email": "donatkamary@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^11.28"
+    }
+}
