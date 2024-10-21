@@ -1,6 +1,6 @@
 <?php
 
-namespace Aika\Transactions\Contracts;
+namespace Aika\Toolbox\Transactions\Contracts;
 
 interface ResultInterface
 {

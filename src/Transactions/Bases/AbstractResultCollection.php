@@ -1,9 +1,9 @@
 <?php
 
-namespace Aika\Transactions\Base;
+namespace Aika\Toolbox\Transactions\Base;
 
-use Aika\Transactions\Contracts\ResultCollectionInterface;
-use Aika\Transactions\Contracts\ResultInterface;
+use Aika\Toolbox\Transactions\Contracts\ResultCollectionInterface;
+use Aika\Toolbox\Transactions\Contracts\ResultInterface;
 use Illuminate\Support\Collection;
 
 abstract class AbstractResultCollection
