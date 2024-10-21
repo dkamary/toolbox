@@ -1,0 +1,23 @@
+# Ignore the vendor directory, which contains third-party libraries installed via Composer
+/vendor/
+
+# Ignore Composer files
+composer.lock
+
+# Ignore Git-specific files
+/.git/
+
+# Ignore IDE-specific files (si tu utilises un IDE comme PHPStorm ou VSCode)
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.cache
+*.tmp
+
+# Ignore build files (si applicable)
+build/
+
+# Ignore environment and configuration files
+.env
