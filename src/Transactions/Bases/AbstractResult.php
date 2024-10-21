@@ -15,7 +15,6 @@ abstract class AbstractResult implements ResultInterface
     const UPDATED           = 6;
     const REFUSED           = 7;
     const NOT_IMPLEMENTED   = 8;
-    const NOTHING_HAPPENED  = 9;
 
     const STATUS_TEXT = [
         self::UNKNOW            => 'unknow',
@@ -27,7 +26,6 @@ abstract class AbstractResult implements ResultInterface
         self::UPDATED           => 'updated',
         self::REFUSED           => 'refused',
         self::NOT_IMPLEMENTED   => 'not implemented',
-        self::NOTHING_HAPPENED  => 'nothing happened',
     ];
 
     const SUCCESS_STATUS = [
