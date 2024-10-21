@@ -1,8 +1,8 @@
 <?php
 
-namespace Aika\Transactions;
+namespace Aika\Toolbox\Transactions;
 
-use Aika\Transactions\Base\AbstractResult;
+use Aika\Toolbox\Transactions\Base\AbstractResult;
 
 class Result extends AbstractResult
 {

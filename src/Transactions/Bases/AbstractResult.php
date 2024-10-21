@@ -1,8 +1,8 @@
 <?php
 
-namespace Aika\Transactions\Base;
+namespace Aika\Toolbox\Transactions\Base;
 
-use Aika\Transactions\Contracts\ResultInterface;
+use Aika\Toolbox\Transactions\Contracts\ResultInterface;
 
 abstract class AbstractResult implements ResultInterface
 {
